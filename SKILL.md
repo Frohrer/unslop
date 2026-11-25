@@ -20,6 +20,15 @@ Use all three on every UI task. They are not a checklist to run once at the end.
 
 When a user request conflicts with a rule here (they want a cream background, or a sparkle icon), the user wins. These are defaults, not laws.
 
+## Keep the identity, change the least
+
+Unslopping is editing, not redesigning. The failure mode to avoid: stripping every tell and replacing the page with a generic template. The result looks *more* generated, because the generic template is itself the strongest AI tell.
+
+- **Find what makes the design recognizable first** and write it down before changing anything: its signature layout, color, imagery, the one memorable moment. Those stay, even if a rule here would nudge against them. Tone them down if they're overdone; don't delete them.
+- **Make the smallest change that fixes each finding.** Fix copy in place, resize the button that's there, remove the fake stat. Keep the existing section order, composition and components unless a finding is specifically about structure.
+- **Never swap one layout for another default layout.** If a section truly has to change, replace it with something specific to this product, not with a stock section (see structure tells below).
+- **Before handing over, compare against the original and ask: would someone recognize this as the same product?** And: does this look more like a template than before? If yes, you over-corrected. Revert toward the original.
+
 ---
 
 ## Part 1: UX principles
@@ -170,6 +179,15 @@ These mark a design as generated. Don't use them by default. If one is truly the
 - **Bento grids** of mismatched tiles used as default feature layout. *(suggested addition)*
 - **Logo marquees and "Trusted by" rows** with placeholder or invented logos. *(suggested addition)*
 
+### Page structure
+The default landing page skeleton is a tell even when every detail is clean. Don't reach for these as a set, and never introduce them when unslopping a page that didn't have them:
+- **Left headline + product mockup on the right** as the automatic hero.
+- **"How it works" in three numbered steps.**
+- **Alternating feature rows** (text left, image right, then flipped), one per feature.
+- **A closing CTA band** with a one-line slogan and the same button.
+- **"Everything you need" section** that lists features with a heading and a sentence each.
+Structure should come from the product: what it actually does, what's unusual about it, and what the user needs to see first.
+
 ### Headline area
 - **Pills above the headline** ("✨ New: AI-powered…" badges).
 - **Overused eyebrows** (small uppercase labels above every heading). One at most, if it carries information.
@@ -203,6 +221,9 @@ These mark a design as generated. Don't use them by default. If one is truly the
 - **Hype verbs**: unlock, elevate, supercharge, seamless, effortless, game-changing, reimagine. *(suggested addition)*
 - **Fake testimonials** with invented names and headshots. Use placeholders. *(suggested addition)*
 - **Generic CTAs** like "Get started" when a specific one fits ("Start free trial", "Book a demo"). *(suggested addition)*
+- **Three-part slogans** ("Book it, track it, love it." / "Plan, pick, board."). The rule of three is the most recognizable AI rhythm.
+- **Stock lines that fit any product**: "Everything you need in one place", "X starts with Y", "Built for the way you work", "All in one app". Test: if you could paste the line onto a competitor's site unchanged, rewrite it with something only this product can say.
+- **Feature headings that restate the feature** ("Baggage tracking: track your baggage"). Say the specific benefit or detail instead.
 
 ---
 
@@ -234,3 +255,9 @@ Run this before handing over any UI. Fix anything that fails.
 **Slop**
 - [ ] None of the Part 3 tells, unless the user asked for one or it's a deliberate, single use.
 - [ ] No invented stats, logos, or testimonials.
+- [ ] No stock page skeleton or stock copy lines introduced.
+
+**Identity (when unslopping an existing design)**
+- [ ] The signature elements of the original are still there.
+- [ ] Section order and composition are unchanged unless a finding required it.
+- [ ] Side by side, it reads as the same product, and less like a template than before, not more.
